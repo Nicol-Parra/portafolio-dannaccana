@@ -8,49 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <button onclick="scrollToSection('inicio')" class="logo-btn">
-                        &lt;Dev/&gt;
-                    </button>
-                </div>
 
-                <!-- Desktop Navigation -->
-                <nav class="nav-desktop">
-                    <button onclick="scrollToSection('inicio')" class="nav-link">Inicio</button>
-                    <button onclick="scrollToSection('sobre-mi')" class="nav-link">Sobre Mí</button>
-                    <button onclick="scrollToSection('habilidades')" class="nav-link">Habilidades</button>
-                    <button onclick="scrollToSection('proyectos')" class="nav-link">Proyectos</button>
-                    <button onclick="scrollToSection('contacto')" class="nav-link">Contacto</button>
-                </nav>
-
-                <!-- Mobile Menu Button -->
-                <button class="mobile-menu-btn" onclick="toggleMobileMenu()" id="mobileMenuBtn">
-                    <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <line x1="3" y1="12" x2="21" y2="12"></line>
-                        <line x1="3" y1="6" x2="21" y2="6"></line>
-                        <line x1="3" y1="18" x2="21" y2="18"></line>
-                    </svg>
-                    <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <line x1="18" y1="6" x2="6" y2="18"></line>
-                        <line x1="6" y1="6" x2="18" y2="18"></line>
-                    </svg>
-                </button>
-            </div>
-
-            <!-- Mobile Navigation -->
-            <nav class="nav-mobile" id="mobileNav">
-                <button onclick="scrollToSection('inicio'); toggleMobileMenu()" class="nav-link-mobile">Inicio</button>
-                <button onclick="scrollToSection('sobre-mi'); toggleMobileMenu()" class="nav-link-mobile">Sobre Mí</button>
-                <button onclick="scrollToSection('habilidades'); toggleMobileMenu()" class="nav-link-mobile">Habilidades</button>
-                <button onclick="scrollToSection('proyectos'); toggleMobileMenu()" class="nav-link-mobile">Proyectos</button>
-                <button onclick="scrollToSection('contacto'); toggleMobileMenu()" class="nav-link-mobile">Contacto</button>
-            </nav>
-        </div>
-    </header>
 
     <!-- Hero Section -->
     <section id="inicio" class="hero">
